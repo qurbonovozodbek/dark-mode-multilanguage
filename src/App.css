@@ -6,6 +6,7 @@
     transition: all 0.5s;
     list-style: none;
     text-decoration: none;
+    position: relative;
 }
 input {
     display: none;
@@ -74,6 +75,11 @@ i {
     top: 28px;
     right: 90px;
     font-size: 16px;
+}
+.loader {
+    position: absolute;
+    top: 340px;
+    left: 45%;
 }
 
 select {
